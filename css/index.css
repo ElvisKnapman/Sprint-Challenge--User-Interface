@@ -71,6 +71,28 @@ p {
     margin: 0 auto;
 }
 
+nav {
+    margin: 30px 0 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.nav-logo {
+    flex: 0 0 20%;
+}
+
+.nav-links a {
+    padding: 40px;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+
+.header-jumbo {
+    margin-bottom: 25px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -111,6 +133,7 @@ p {
     align-items: center;
     justify-content: center;
 }
+
 
 .bottom-content {
     display: flex;
