@@ -1,0 +1,57 @@
+.top-content .text-container-form {
+    width: 96%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+form {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+label {
+    margin: 20px 0 5px;
+    font-size: 14px;
+    animation: slideIn .8s ease-in-out;
+}
+
+input,
+textarea {
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 4px;
+    outline: none;
+    padding: 5px;
+    transition: all .2s;
+    animation: slideIn .8s ease-in-out;
+}
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+    border: 1px solid rgb(189, 189, 189);
+    box-shadow: 0 0 4px rgba(0, 0, 0, .2);
+}
+
+input {
+    width: 30%;
+}
+
+textarea {
+    width: 50%;
+}
+
+input[type="submit"] {
+    margin-top: 30px;
+    width: 30%;
+    background: rgb(241, 241, 241);
+    border: 1px solid rgb(214, 214, 214);
+    transition: all .2s;
+}
+
+input[type="submit"]:hover {
+    background: rgb(228, 228, 228);
+    border: 1px solid rgb(189, 189, 189);
+    cursor: pointer;
+}
+
